@@ -7,8 +7,8 @@
   <?php require 'logic.php'; ?>
 </head>
 <body class="<?=$bclass?>">
-<h1> It's <?=$today?> </h1>
-<h2>Timezone: <?=$tz?></h2>
+<h1> Good <?=$bclass?>! <br/> It's <?=$today?> </h1>
+
 <form method='GET' action='index.php'>
 <select name="timezone">
 <option value="America/New_York">Eastern</option>
@@ -22,6 +22,7 @@
 </select>
     <input type='submit' value='Set New Timezone'>
 	</form>
+  <h2>Timezone: <?=$tz?></h2>
 <img src="http://making-the-internet.s3.amazonaws.com/<?=$bimage?>">
 </body>
 </html>
