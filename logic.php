@@ -6,7 +6,7 @@ date_default_timezone_set($tz);
 $today = date('h:i:s a l, F jS Y');
 $hour = date("G");
 //determine body class and img
-if ($hour > 5 AND $hour < 11){
+if ($hour >= 5 AND $hour < 11){
   $bclass = "morning";
   $bimage ="php-morning.png";
 }
@@ -19,7 +19,7 @@ elseif
     $bclass = "evening";
     $bimage ="php-evening.png";
   }
-  else{
+  else {
     $blass = "night";
     $bimage ="php-night.png";
   };
