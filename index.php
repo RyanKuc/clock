@@ -22,6 +22,7 @@
 </select>
     <input type='submit' value='Set New Timezone'>
 	</form>
+  <h2> <?=$hour?> </h2>
   <h2>Timezone: <?=$tz?></h2>
 <img src="http://making-the-internet.s3.amazonaws.com/<?=$bimage?>">
 </body>
